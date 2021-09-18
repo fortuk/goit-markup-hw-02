@@ -6,84 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Шапка сайта -->
-    <header>
-        <nav><a href="WebStudio">WebStudio</a>    
-            <ul>
-                <li><a href="Студия" >Студия</a></li>
-                <li><a href=./portfolio.html>Портфолио</a></li>
-                <li><a href="Контакты">Контакты</a></li>                    
+    <header class="headers">
+        <nav class="headers_navigation"><a class="logo" style="color: black;" href=""><span class="firs_logo">Web</span>Studio</a>    
+            <ul class="style_navigation" >
+                <li><a class="navigation stydio" href="Студия" >Студия</a></li>
+                <li><a class="navigation portfolio" href=./portfolio.html>Портфолио</a></li>
+                <li><a class="navigation kontakts" href="Контакты">Контакты</a></li>                    
             </ul>
         </nav>
-        <ul>
-           <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="style_mail_tel">
+           <li><a class="navigation mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+           <li><a class="navigation tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
-        <!-- -->
+        <!-- Навигация по сайту -->
         <section>
-            <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+            <ul class="buttons_selection">
+                <li><button class="button_1" type="button"><span class="text_buttom">Все</button></span></li>
+                <li><button class="button_2" type="button"><span class="text_buttom">Веб-сайты</span></button></li>
+                <li><button class="button_3" type="button"><span class="text_buttom">Приложения</span></button></li>
+                <li><button class="button_4"  type="button"><span class="text_buttom">Дизайн</span></button></li>
+                <li><button class="button_5"  type="button"><span class="text_buttom">Маркетинг</span></button></li>
             </ul>
-        </section>
         <!--контент сайта -->
         <section>
-            <ul>
-                <li><img src="img/10.jpg" alt="" width="500"/>
+            <ul class="kontent_image">
+                <li class="img_1"><img src="img/10.jpg" alt="" width="300"/>
                     <h3>Технокряк</h3>
                     <p>Веб-сайт</p>
                 </li>
-                <li><img src="img/11.jpg" alt="" width="500"/>
+                <li class="img_2"><img src="img/11.jpg" alt="" width="300"/>
                     <h3>Постер New Orlean vs Golden Star</h3>
                     <p>Дизайн</p>
                 </li>
-                <li><img src="img/12.jpg" alt="" width="500"/>
+                <li class="img_3"><img src="img/12.jpg" alt="" width="300"/>
                     <h3>Ресторан Seafood</h3>
                     <p>Приложение</p>
                 </li>
-                <li><img src="img/13.jpg" alt="" width="500"/>
+            </ul>
+            <ul class="kontent_image">
+                <li class="img_4"><img src="img/13.jpg" alt="" width="300"/>
                     <h3>Проект Prime</h3>
                     <p>Маркетинг</p>
                 </li>
-                <li><img src="img/14.jpg" alt="" width="500"/>
+                <li class="img_5"><img src="img/14.jpg" alt="" width="300"/>
                     <h3>Проект Boxes</h3>
                     <p>Приложение</p>
                 </li>
-                <li><img src="img/15.jpg" alt="" width="500"/>
+                <li class="img_6"><img src="img/15.jpg" alt="" width="300"/>
                     <h3>Inspiration has no Borders</h3>
                     <p>Веб-сайт</p>
                 </li>
-                <li><img src="img/16.jpg" alt="" width="500"/>
+            </ul>
+            <ul class="kontent_image">
+                <li class="img_7"><img src="img/16.jpg" alt="" width="300"/>
                     <h3>Издание Limited Edition</h3>
                     <p>Дизайн</p>
                 </li>
-                <li><img src="img/17.jpg" alt="" width="500"/>
+                <li class="img_8"><img src="img/17.jpg" alt="" width="300"/>
                     <h3>Проект LAB</h3>
                     <p>Маркетинг</p>
                 </li>
-                <li><img src="img/18.jpg" alt="" width="500"/>
+                <li class="img_9"><img src="img/18.jpg" alt="" width="300"/>
                     <h3>Growing Business</h3>
                     <p>Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="WebStudio">WebStudio</a>
-        <address>
-            <ul>
-               <li><a href="г. Киев, пр-т Леси Украинки, 26">г. Киев, пр-т Леси Украинки, 26</a></li>
-               <li> <a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-               <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-           </ul>
-       </address>
-   </footer>
+        <!-- Юредический адресс -->
+        <footer class="legall_adress2">
+            <a class="logo" style="color: #fff;" href="WebStudio"><span class="firs_logo">Web</span>Studio</a>
+            <address>
+                <ul >
+                   <li><a class="addres" href="г. Киев, пр-т Леси Украинки, 26">г. Киев, пр-т Леси Украинки, 26</a></li>
+                   <li><a class="addres" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+                   <li><a class="addres" href="tel:+380961111111">+38 096 111 11 11</a></li>
+               </ul>
+           </address>
+       </footer>
 </body>
-</html>
