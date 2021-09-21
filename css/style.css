@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .headers{
     display: flex;
     flex-direction: row;
@@ -93,19 +96,19 @@
     font-size: 44px;
     text-align: center;
     color: #FFFFFF;
-    padding: 200px 452px 280px 452px;
+    padding: 100px 452px 100px 452px;
 }   
 .button_goal{
     width: 200px;
     height: 50px;
-    left: 700px;
+    left: 600px;
     top: 430px;
-    text-align: center;
     background-color: #2196F3;
-    margin: 0px 700px 200px 700px;
+    margin: 0px 600px 200px 600px;
 }
 .buttom_goal{
     color: #FFFFFF;
+    cursor: pointer;
     
 }
 .direction_selection{
@@ -357,4 +360,7 @@
     left: 0px;
     top: 1628px;
     background-color: #2F303A;
+}
+.addres:hover{
+   color: #2196F3
 }
