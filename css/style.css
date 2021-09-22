@@ -37,53 +37,34 @@ body{
     flex-direction: row;
 }
 .stydio{
-    position: absolute;
-    left: 28.31%;
-    right: 68.62%;
-    top: 2%;
-    bottom: 40%;
-}.stydio:hover{
+   margin: 0px 20px 0px 200px;
+}
+.stydio:hover{
     color: #2196F3;
 }
 .portfolio{
-    position: absolute;
-    left: 34.5%;
-    right: 60.69%;
-    top: 2%;
-    bottom: 40%;
+    margin: 0px 20px 0px 30px;
 }
 .portfolio:hover{
     color: #2196F3;
 }
 .contakts{
-    position: absolute;
-    left: 42.44%;
-    right: 53.31%;
-    top: 2%;
-    bottom: 40%;
+    margin: 0px 200px 0px 30px;
 }
 .contakts:hover{
     color: #2196F3;
 }
 .mail{
-    position: absolute;
-    left: 67.38%;
-    right: 24.19%;
-    top: 2%;
-    bottom: 40%;
+    margin: 0px 20px 0px 100x;
 }
 .mail:hover{
-    color: #2196F3;
+    color: aqua;
 }
 .tel{
-    position: absolute;
-    left: 78.94%;
-    right: 13.44%;
-    top: 2%;
-    bottom: 40%;
+    margin: 0px 20px 0px 30px;
 }
 .tel:hover{
-    color: #2196F3;
+    color: aqua;
 }
 .goal{
     background-color: #2F303A;
@@ -219,39 +200,24 @@ body{
     color: black;
 }
 .button_1{
-    position: absolute;
-    width: 29px;
-    height: 26px;
-    left: 517px;
-    top: 180px;
+    margin: 140px 30px 0px 400px;
+    cursor: pointer;
 }
 .button_2{
-    position: absolute;
-    width: 84px;
-    height: 26px;
-    left: 598px;
-    top: 180px;
+    margin: 140px 30px 0px 30px;
+    cursor: pointer;
 }
 .button_3{
-    position: absolute;
-    width: 101px;
-    height: 26px;
-    left: 734px;
-    top: 180px;
+    margin: 140px 30px 0px 30px;
+    cursor: pointer;
 }
 .button_4{
-    position: absolute;
-    width: 59px;
-    height: 26px;
-    left: 887px;
-    top: 180px;
+    margin: 140px 30px 0px 30px;
+    cursor: pointer;
 }
 .button_5{
-    position: absolute;
-    width: 86px;
-    height: 26px;
-    left: 998px;
-    top: 180px;
+    margin: 140px 30px 0px 30px;
+    cursor: pointer;
 }
 .text_buttom:hover{
     color: #FFFFFF;
@@ -275,36 +241,21 @@ body{
     display: flex;
     flex-direction: row;
 }
-.img_kontent1{
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
+/* .img_kontent1{
+    margin: 120px 30px 0px 200px;
+   
 }
 .img_kontent2{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 615px;
-    top: 262px;
+    margin: 120px 30px 0px 30px;
 }
 .img_kontent3{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 1015px;
-    top: 262px;
+    margin: 120px 30px 0px 30px;
 }
 .img_kontent4{
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 696px;
+
+    margin: 400px 30px 0px 0px;
 }
 .img_kontent5{
-    position: absolute;
     width: 370px;
     height: 294px;
     left: 615px;
@@ -337,7 +288,7 @@ body{
     height: 294px;
     left: 1015px;
     top: 1130px;
-}
+} */
 .text_img_kontent{
     font-family: Roboto;
     font-style: normal;
@@ -354,13 +305,21 @@ body{
     color: #757575;
 }
 .legall_adress2{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
+   margin: 100px 0px 0px 0px;
     background-color: #2F303A;
 }
 .addres:hover{
    color: #2196F3
+}
+.mail1{
+    color: #FFFFFF;
+}
+.tel1{
+    color: #FFFFFF;
+}
+.mail1:hover{
+    color: aqua;
+}
+.tel1:hover{
+    color: aqua;
 }
