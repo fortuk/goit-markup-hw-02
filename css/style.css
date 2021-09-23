@@ -57,14 +57,20 @@ body{
 .mail{
     margin: 0px 20px 0px 100x;
 }
+.mail{
+    color:  rgba(117, 117, 117, 1);
+}
 .mail:hover{
-    color: aqua;
+    color: #2196F3;
+}
+.tel{
+    color: #757575;
 }
 .tel{
     margin: 0px 20px 0px 30px;
 }
 .tel:hover{
-    color: aqua;
+    color: #2196F3;
 }
 .goal{
     background-color: #2F303A;
@@ -87,10 +93,8 @@ body{
     background-color: #2196F3;
     margin: 0px 600px 200px 600px;
 }
-.buttom_goal{
-    color: #FFFFFF;
+.button_goal{
     cursor: pointer;
-    
 }
 .direction_selection{
     display: flex;
@@ -312,14 +316,14 @@ body{
    color: #2196F3
 }
 .mail1{
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .tel1{
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .mail1:hover{
-    color: aqua;
+    color: #2196F3;
 }
 .tel1:hover{
-    color: aqua;
+    color: #2196F3;
 }
